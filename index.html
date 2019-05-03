@@ -22,6 +22,25 @@
     <link rel="stylesheet" href="assets/css/helpers.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/restaurant.css">
+
+
+<style>
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+</style>
+
+
   </head>
   <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 
@@ -120,11 +139,8 @@
               <li class="nav-item">
                 <a class="nav-link p-3" data-toggle="list" href="#food1" role="tab">Plates</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link p-3" data-toggle="list" href="#salads" role="tab">Salads</a>
-              </li> -->
               <li class="nav-item">
-                <a class="nav-link p-3" data-toggle="list" href="#apps" role="tab">Kids Meals & Sides</a>
+                <a class="nav-link p-3" data-toggle="list" href="#drinks" role="tab">Kids Meals & Sides</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link p-3" data-toggle="list" href="#drinks" role="tab">Drinks</a>
@@ -329,7 +345,7 @@
                         <div class="row">
                           <div class="col-lg-10">
                             <h3 class="pb_font-18 font-weight-bold">Fountain Soda</h3>
-                            <p class="mb-0">Pepsi Products (add something maybe)</p>
+                            <p class="mb-0"></p>
                           </div>
                           <div class="col-lg-2"><span class="price"><sup>$</sup>1.99</span></div>
                         </div>
@@ -338,7 +354,7 @@
                         <div class="row">
                           <div class="col-lg-10">
                             <h3 class="pb_font-18 font-weight-bold">SoBe</h3>
-                            <p class="mb-0">(nothing here?)</p>
+                            <p class="mb-0"></p>
                           </div>
                           <div class="col-lg-2"><span class="price"><sup>$</sup>2.00</span></div>
                         </div>
@@ -347,7 +363,7 @@
                         <div class="row">
                           <div class="col-lg-10">
                             <h3 class="pb_font-18 font-weight-bold">Yogurt Drink</h3>
-                            <p class="mb-0">nothing here?</p>
+                            <p class="mb-0"></p>
                           </div>
                           <div class="col-lg-2"><span class="price"><sup>$</sup>2.45</span></div>
                         </div>
@@ -355,10 +371,10 @@
                       <li>
                         <div class="row">
                           <div class="col-lg-10">
-                            <h3 class="pb_font-18 font-weight-bold">Draft Beer</h3>
-                            <p class="mb-0">Beer options? need to look up</p>
+                            <h3 class="pb_font-18 font-weight-bold"></h3>
+                            <p class="mb-0"></p>
                           </div>
-                          <div class="col-lg-2"><span class="price"><sup>$</sup>4.95</span></div>
+                          <div class="col-lg-2"><span class="price"><sup></sup></span></div>
                         </div>
                       </li>
                     </ul>
@@ -369,7 +385,7 @@
                         <div class="row">
                           <div class="col-lg-10">
                             <h3 class="pb_font-18 font-weight-bold">Wine Glass</h3>
-                            <p class="mb-0">wine options?</p>
+                            <p class="mb-0"></p>
                           </div>
                           <div class="col-lg-2"><span class="price"><sup>$</sup>4.50</span></div>
                         </div>
@@ -378,7 +394,7 @@
                         <div class="row">
                           <div class="col-lg-10">
                             <h3 class="pb_font-18 font-weight-bold">Bottled Juices</h3>
-                            <p class="mb-0">nothing here?</p>
+                            <p class="mb-0"></p>
                           </div>
                           <div class="col-lg-2"><span class="price"><sup>$</sup>1.99</span></div>
                         </div>
@@ -386,11 +402,11 @@
                       <li>
                         <div class="row">
                           <div class="col-lg-10">
-                            <h2>Desserts? test area</h2>
-                            <h3 class="pb_font-18 font-weight-bold">Baklava</h3>
-                            <p class="mb-0">nothing here</p>
+                            
+                            <h3 class="pb_font-18 font-weight-bold">Draft Beer</h3>
+                            <p class="mb-0"></p>
                           </div>
-                          <div class="col-lg-2"><span class="price"><sup>$</sup>3.50</span></div>
+                          <div class="col-lg-2"><span class="price"><sup>$</sup>4.95</span></div>
                         </div>
                       </li>
                       <li>
@@ -399,7 +415,7 @@
                             <h3 class="pb_font-18 font-weight-bold"></h3>
                             <p class="mb-0"></p>
                           </div>
-                          <div class="col-lg-2"><span class="price"><sup>$</sup></span></div>
+                          <div class="col-lg-2"><span class="price"><sup></sup></span></div>
                         </div>
                       </li>
                     </ul>
@@ -499,7 +515,8 @@
       </div>
 
 
-<!-- This is the section for the sides and other!! -->
+<!-- This is the section for the kids meals and sides!! -->
+
 
     </section>
     <!-- END section -->
@@ -638,12 +655,12 @@
       </div>
     </section> -->
     <!-- END section -->
-    <section class="pb_md_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/log.png)" id="section-home">
+    <section class="pb_md_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/logo5.png)" id="section-home">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-9  order-md-1">
-            <h2 class="heading mb-3">Warrior Discount</h2>
-            <p class="sub-heading">Discounts offered to CSU Stan students, just bring student id for a 10% discount on purchases</p>
+            <h1 class="heading mb-3" id="discount"> <b>Warrior Discount</b></h1>
+            <p class="sub-heading" id="discount"><b> <strong> Discounts offered to CSU Stan students, just bring student id for a 10% discount on purchases </strong></b></p>
           </div>
         </div>
       </div>
@@ -719,7 +736,7 @@
             </div>
           </div>
           <div class="row justify-content-md-center">
-            <div class="col-md-7">
+            <div class="col-md-7 col-sm-12">
               
                 <div class="row justify-content-md-center">
                   <h4>3160 Countryside Drive</h4>
@@ -746,11 +763,11 @@
         </div>
         
         <!-- this is the div for the map! -->
-        <div class="pb_half"> 
-          
+        <div class="pb_half col-sm-12"> 
+          <div class="map-responsive">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.437552237196!2d-120.88305034942422!3d37.521181734383504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809107427adf0239%3A0xbef803e6f8f5ecc7!2s3160+Countryside+Dr%2C+Turlock%2C+CA+95380!5e0!3m2!1sen!2sus!4v1556142073827!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-
+      </div>
         
       </div>
 
